@@ -6,7 +6,7 @@ from .models import Snacks
 class SnackListView(ListView):
     template_name = "snack_list.html"
     model = Snacks
-    context_object_name = "sw_snacks"
+    # context_object_name = "sw_snacks"
 
 
 class SnackDetailView(DetailView):

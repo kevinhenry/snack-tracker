@@ -11,6 +11,14 @@ Overview: Django has a powerful Object Relational Mapper that allows us to persi
 
 Today you’ll build out a project with one model and wire up that model using Django Views.
 
+
+## Implementation Notes
+- The instructions are becoming more conceptual.
+- All the concepts listed relate to key Django steps covered in the demo.
+- If there is confusion about what, exactly, is required then ask the client (aka the instructors.)
+- TLDR - make your lab project like the demo project.
+
+
 ## Feature Tasks and Requirements
 
 Model
@@ -37,6 +45,7 @@ Model
 - confirm that snacks behave as expected with proper name, purchaser and description.
 - Looks like your model in good shape. Congrats!
 
+
 ### Views for Snacks App
 - Where to create these views?
     - Dig around and see if there’s a sensible spot.
@@ -58,6 +67,7 @@ Model
     - account for primary key in url
     - path would look like localhost:8000/1/ to get to snack with id of 1
 
+
 ### Templates
 - Add `templates` folder in root of project
     - register `templates` folder in project settings TEMPLATES section
@@ -73,13 +83,6 @@ Model
     - content should display snack’s name, description and purchaser
 - add link in snack_list template to related detail page for each snack
 - Add a link back to Home (aka snack_list) page from detail page.
-
-
-## Implementation Notes
-- The instructions are becoming more conceptual.
-- All the concepts listed relate to key Django steps covered in the demo.
-- If there is confusion about what, exactly, is required then ask the client (aka the instructors.)
-- TLDR - make your lab project like the demo project.
 
 
 ### User Acceptance Tests:
